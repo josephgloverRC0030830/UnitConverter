@@ -14,14 +14,14 @@ namespace UnitConverter
     {
         Dictionary<string, double> prefixes = new Dictionary<string, double>()
         {
-            {"nm", 1e-9 },
-            {"µm", 1e-6 },
-            {"mm", 1e-3 },
-            {"cm", 1e-2 },
-            {"m", 1 },
-            {"km", 1e3 },
-            {"Mm", 1e6 },
-            {"Gm", 1e9 }
+            {"nm²", 1e-18 },
+            {"µm²", 1e-12 },
+            {"mm²", 1e-6 },
+            {"cm²", 1e-4 },
+            {"m²", 1 },
+            {"km²", 1e6 },
+            {"Mm²", 1e12 },
+            {"Gm²", 1e18 }
         };
         public Form1()
         {
